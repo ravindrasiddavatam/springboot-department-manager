@@ -1,0 +1,69 @@
+#server:
+#  port: 8082
+#
+#spring:
+#  profiles:
+#    active: qa
+#
+#---
+#
+#spring:
+#  profiles: dev
+#  spring:
+#    datasource:
+#      driver-class-name: com.mysql.jdbc.Driver
+#      username: root
+#      url: jdbc:mysql://localhost:3306/dcbapp
+#      password: Venky@5248
+#    application:
+#      name: Spring-boot-tutorial
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: 'true'
+#  welcome:
+#    message: Welcome to Daily code buffer!!5678
+#  server:
+#    port: '8082'
+#---
+#
+#spring:
+#  profiles: qa
+#  spring:
+#    datasource:
+#      driver-class-name: com.mysql.jdbc.Driver
+#      username: root
+#      url: jdbc:mysql://localhost:3306/dcbapp-qa
+#      password: Venky@5248
+#    application:
+#      name: Spring-boot-tutorial
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: 'true'
+#    welcome:
+#      message: Welcome to Daily code buffer!!5678
+#    server:
+#      port: '8082'
+#
+#
+#---
+#
+#spring:
+#  profiles: prod
+#  spring:
+#    datasource:
+#      driver-class-name: com.mysql.jdbc.Driver
+#      username: root
+#      url: jdbc:mysql://localhost:3306/dcbapp-prod
+#      password: Venky@5248
+#    application:
+#      name: Spring-boot-tutorial
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: 'true'
+#  welcome:
+#    message: Welcome to Daily code buffer!!5678
+#  server:
+#    port: '8082'
